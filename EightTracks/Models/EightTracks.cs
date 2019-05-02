@@ -41,7 +41,7 @@ namespace EightTracks.Models
       return _instances;
     }
 
-    public static void DeleteEightTrack(int id)
+    public static void DeleteEightTrackTape(int id)
     {
       for(int i = 0; i < _instances.Count; i++)
       {
